@@ -3,7 +3,7 @@ import json
 
 UIDPASS_FILE = "uidpass.json"
 TOKEN_FILE = "tokens.json"
-API_URL = "https://xtytdtyj-jwt.up.railway.app/token"
+API_URL = "http://93.115.101.143:14920/api/token"
 
 def read_uidpass():
     with open(UIDPASS_FILE, "r", encoding="utf-8") as f:
